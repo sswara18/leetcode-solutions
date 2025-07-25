@@ -29,6 +29,12 @@ public:
             }
         }
 
+        cout << "Maximum subarray: ";
+        for (int i = ansStart; i <= ansEnd; ++i) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+
         return maxi;
     }
 };
